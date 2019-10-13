@@ -5,6 +5,7 @@
     margin-right: auto;
     overflow: hidden;
     text-align: center;
+
 }
 
 .image-container{
@@ -20,11 +21,11 @@
 .slide-image{
     float: left;
     margin: 0px;
-    padding: 0px;
+    padding-top: 100px;
 }
 
 .button-container{
-    top: -20px;
+    top: -130px;
     position: relative;
 }
 .slider-button{
@@ -47,3 +48,31 @@
 #slider-image4:target ~ .image-container{
      left: -2400px;
  }
+
+.header{
+    position: fixed;
+    left: 0;
+    right: 0;
+    height: 66px;
+    line-height: 66px;
+    color: #FFF;
+    background-color: cornflowerblue;
+}
+
+.header__logo{
+    font-weight: bold;
+    padding: 0 25px;
+    float: left;
+    color: #FFFFFF;
+}
+
+.menu{
+    float: left;
+}
+.menu a{
+    padding: 0 10px;
+    color: white;
+}
+.menu a:hover{
+    color:antiquewhite ;
+}
