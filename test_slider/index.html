@@ -4,6 +4,7 @@
     <link rel="stylesheet" type="text/css" href="style.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <meta charset="UTF-8">
     <title>Slider</title>
 </head>
@@ -18,23 +19,19 @@
             <a href="../test_follow/index.html">Eye Follow</a>
         </nav>
     </header>
-    <div class="slide-container">
-        <span id="slider-image1"></span>
-        <span id="slider-image2"></span>
-        <span id="slider-image3"></span>
-        <span id="slider-image4"></span>
-        <div class="image-container">
-            <img src="image1.jpg" class="slide-image" alt="image1">
-            <img src="image2.jpg" class="slide-image" alt="image2">
-            <img src="image3.jpg" class="slide-image" alt="image3">
-            <img src="image4.jpg" class="slide-image" alt="image4">
-        </div>
-        <div class="button-container">
-            <a href="#slider-image1" class="slider-button"></a>
-            <a href="#slider-image2" class="slider-button"></a>
-            <a href="#slider-image3" class="slider-button"></a>
-            <a href="#slider-image4" class="slider-button"></a>
+
+    <div class="carousel-container">
+        <i class="	fa fa-mail-forward" id="nextBtn"></i>
+        <i class="	fa fa-mail-reply" id="prevBtn"></i>
+        <div class="carousel-slide">
+            <img src="image4.jpg" id="lastClone" alt="">
+            <img src="image1.jpg" alt="">
+            <img src="image2.jpg" alt="">
+            <img src="image3.jpg" alt="">
+            <img src="image4.jpg" alt="">
+            <img src="image1.jpg" id="firstClone" alt="">
         </div>
     </div>
+    <script src="app.js"></script>
 </body>
 </html>
