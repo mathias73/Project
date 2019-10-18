@@ -4,38 +4,20 @@ html, body{
     height: 100%;
     margin: 0;
     padding: 0;
+    background-image:linear-gradient(#34ace0, #227093);
+
 }
 
-.menu{
-    display: inline-block;
-    width: 100%;
-    height: 100%;
+.container {
+    padding-top: 150px;
+}
 
-
-    vertical-align: middle;
+h3{
     text-align: center;
-    line-height: 200px;
-
-    font-family: Montserrat;
-    font-size: medium;
-    color: #FCFCFC;
-    text-decoration: none;
-    font-weight: bold;
-    margin-top: 0.2px;
-
 }
-.menu-btn{
-    background-color: #434343;
-    margin: 5em;
-    padding: 5em;
-    border-radius: 15px;
-    display: grid;
+p{
+    color: white;
 }
-br{
-     line-height: 5px;
-}
-
-h2{
-    text-align: center;
-    padding-top: 10px;
+p:hover{
+    color: #bcbcbc;
 }
