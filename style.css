@@ -6,33 +6,36 @@ html, body{
     padding: 0;
 }
 
-.container{margin: 0 20px;}
-.site-content{padding-top: 66px;}
-
-.header{
-    position: fixed;
-    left: 0;
-    right: 0;
-    height: 66px;
-    line-height: 66px;
-    color: #FFF;
-    background-color: cornflowerblue;
-}
-
-.header__logo{
-    font-weight: bold;
-    padding: 0 25px;
-    float: left;
-    color: #FFFFFF;
-}
-
 .menu{
-    float: left;
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+
+
+    vertical-align: middle;
+    text-align: center;
+    line-height: 200px;
+
+    font-family: Montserrat;
+    font-size: medium;
+    color: #FCFCFC;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 0.2px;
+
 }
-.menu a{
-    padding: 0 10px;
-    color: white;
+.menu-btn{
+    background-color: #434343;
+    margin: 5em;
+    padding: 5em;
+    border-radius: 15px;
+    display: grid;
 }
-.menu a:hover{
-    color:antiquewhite ;
+br{
+     line-height: 5px;
+}
+
+h2{
+    text-align: center;
+    padding-top: 10px;
 }
