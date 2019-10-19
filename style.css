@@ -21,3 +21,6 @@ p{
 p:hover{
     color: #bcbcbc;
 }
+img{
+	border-radius: 15px;
+	}
