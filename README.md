@@ -1,3 +1,2 @@
 # Project
-Je test des choses et des fois ça marche <br>
-HTML / CSS / JS maybe others things 
+Just some test with vanilla JS
